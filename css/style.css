@@ -1,0 +1,228 @@
+body {
+    font-family: var(--font-family-r);
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 120px;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    align-items: baseline;
+}
+
+.header-menu-text {
+    margin-left: 35px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.header-menu-text:hover {
+    color: #8F90A6;
+}
+
+.header-button {
+    box-sizing: border-box;
+    color: #1DAEFF;
+    border: 2px solid #1DAEFF;
+    letter-spacing: 0.2em;
+    align-items: center;
+    line-height: 36px;
+    height: 50px;
+    background: none;
+    border-radius: 15px;
+    padding: 5px 40px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background: #1DAEFF;
+    color: white;
+}
+
+.container {
+    margin: 0 70px;
+}
+
+.banner {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-image {
+    margin: 0 auto;
+    border-radius: 55px;
+    background: url(/real-estate/img/banner.png);
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 633px;
+}
+
+.banner-h1 {
+    padding: 92px 92px 0px;
+    color: #110229;
+    font-size: 56px;
+    font-family: var(--font-family-sb);
+}
+
+.banner-p {
+    padding: 35px 90px 0px;
+    font-size: 22px;
+    width: 470px;
+    color: #585981;
+}
+
+.search-bar {
+    margin-top: 100px;
+}
+
+.search-bar-menu {
+    padding: 0px 90px;
+    text-transform: uppercase;
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    color: #110229;
+    cursor: pointer;
+}
+
+.search-bar-active-menu{
+    margin-left: 28px;
+    color: #8F90A6;
+}
+
+.search-bar-active {
+    background: white;
+    padding: 10px 30px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.bg-search-bar {
+    margin: 0 90px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 918px;
+    height: 102px;
+    box-shadow: 0px 30px 60px -15px rgba(143, 144, 188, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 20px 20px 20px;
+}
+
+.bg-wrapper {
+    padding: 5px 30px;
+    width: 203px;
+}
+
+.texto-2 {
+    position: absolute;
+    top: 7px;
+    left: 300px;
+}
+
+.texto-3 {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+}
+
+.inside-h2 {
+    font-family: var(--font-family-sb);
+    font-size: 18px;
+}
+
+.inside-p {
+    font-size: 16px;
+    color: #8F90A6;
+}
+
+.mark {
+    margin-left: 50px;
+}
+
+.main-text {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 38px;
+    font-family: var(--font-family-sb);
+}
+
+.cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card img {
+    border-radius: 30px
+}
+
+.card-text {
+    font-family: var(--font-family-sb);
+    font-size: 16px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.third-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 150px;
+}
+
+.link-text {
+    color: #1DAEFF;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.link-text:hover {
+    color: #097bbe;
+}
+
+.list-appereance {
+    background: #FFFFFF;
+    border: 1px solid #1DAEFF;
+    box-shadow: 0px 17px 50px rgba(143, 144, 166, 0.32);
+    border-radius: 30px;
+    width: 585px;
+    height: 249px;
+    overflow: auto;
+}
+
+.list-image img {
+    border-radius: 20px;
+}
+
+.list-image {
+    padding: 36px 30px;
+}
+
+.list-main-text {
+    font-size: 16px;
+    line-height: 37px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin: 0;
+}

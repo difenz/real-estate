@@ -1,0 +1,14 @@
+@font-face {
+    font-family: LufgaSB;
+    src: url('../fonts/LufgaSemiBold.ttf');
+}
+
+@font-face {
+    font-family: LufgaM;
+    src: url('../fonts/LufgaMedium.ttf');
+}
+
+@font-face {
+    font-family: LufgaR;
+    src: url('../fonts/LufgaRegular.ttf');
+}
